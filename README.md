@@ -1,8 +1,6 @@
 # Homebrew Tap für Saytrue
 
-Offizielles Homebrew Tap für [Saytrue](https://github.com/fidpa/saytrue-releases): Sprache zu Text mit lokaler Analyse und Umformulierung.
-
-> Der Cask wird beim ersten Release befüllt; bis dahin schlägt die Installation fehl.
+Offizielles Homebrew Tap für [Saytrue](https://saytrue.de/): Klingt ein Satz härter als gemeint, sprich oder tippe ihn ein, und Saytrue schlägt eine wärmere Fassung vor. Auf Wunsch bleibt alles auf deinem Mac. Homebrew liefert die Free-Ausgabe (Universal, Apple Silicon und Intel).
 
 ## Installation
 
@@ -37,11 +35,13 @@ Beim ersten Start muss die Mikrofon-Berechtigung erteilt werden:
 
 ### Ollama (optional)
 
-Für lokale Analysen: `brew install ollama`, danach führt das Onboarding der App durch die Modellwahl.
+Saytrue braucht ein Sprachmodell: Ollama auf diesem Mac (`brew install ollama`), Apple Intelligence (ab macOS 26) oder einen Cloud-Anbieter. Das Onboarding der App führt durch die Wahl; Anleitung: [saytrue.de/einrichtung](https://saytrue.de/einrichtung/).
 
 ## Support
 
-- [Dokumentation und Releases](https://github.com/fidpa/saytrue-releases)
+- [Website und Einrichtung](https://saytrue.de/)
+- [Releases](https://github.com/fidpa/saytrue-releases)
+- Kontakt: marc@saytrue.de
 
 ## Lizenz
 
