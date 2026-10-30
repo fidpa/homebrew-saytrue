@@ -12,8 +12,8 @@
 # ============================================================================
 
 cask "saytrue" do
-  version "0.3.0"
-  sha256 "63e3f3f175a403e2b6bcb8322e11ca2284f54f2c4eaf02f4d980809e586c1ae9"
+  version "0.4.0"
+  sha256 "b3ee8e3eafaa0cd0dbfefcc7c4bff896702f24b8dde4da4df65593acd18eb6eb"
 
   url "https://github.com/fidpa/saytrue-releases/releases/download/v#{version}/saytrue-#{version}-macos-universal-free.dmg"
   name "Saytrue"
